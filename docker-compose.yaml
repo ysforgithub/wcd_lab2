@@ -1,0 +1,7 @@
+version: '3.9'
+services: 
+  py_strip: 
+    image: shun/image
+    volumes: 
+      - ./input:/app/input
+      - ./output:/app/output
